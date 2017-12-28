@@ -59,6 +59,7 @@ article img {
 	outline-width: .1em;
 	outline-style: solid;
 }
+/* 头部图片 */
 #about header {
 	background-image: url(../images/lineup.gif);
 }
@@ -71,6 +72,7 @@ article img {
 #contact header {
 	background-image: url(../images/drummer.gif);
 }
+/* 幻灯片 */
 #slideshow {
 	width: 150px;
 	height: 150px;
@@ -82,9 +84,33 @@ article img {
 	border-width: 0;
 	outline-width: 0;
 }
+/* 幻灯片框架 */
 #frame {
 	position: absolute;
 	top: 0;
 	left: 0;
 	z-index: 99;
+}
+/* 图片库 */
+#imagegallery li {
+	display: inline;
+}
+/* live */
+td {
+	padding: .5em 3em;
+}
+dl {
+	overflow: hidden;
+}
+dt {
+	float: left;
+}
+dd {
+	float: left;
+}
+label {
+	display: block;
+}
+fieldset {
+	border: 0;
 }
